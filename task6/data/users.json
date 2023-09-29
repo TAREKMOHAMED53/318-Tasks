@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Tarek Mohamed",
+        "email": "tarektito341@gmail.com",
+        "password": "$2y$10$qDrNoD8nTdmZXJzm2zQu.eb.nJLaVG\/.Q8YHLASS4OWy.adimgpYe"
+    },
+    {
+        "id": 2,
+        "name": "noha samir",
+        "email": "noha@gmail.com",
+        "password": "$2y$10$vhpTWpAaGUxknS8sDwLGL.FUdyykiWMBzCe\/B4w3ypIgjIlswRcXS"
+    },
+    {
+        "id": 3,
+        "name": "smsm",
+        "email": "smsm@gmail.com",
+        "password": "$2y$10$ZY0v8I86xLLokcLuc9m0E.Oxdu1W.iajIYJRq5ga8fBPYgiUEdnSK"
+    }
+]

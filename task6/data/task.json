@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "task": "task1 now",
+        "user_id": 1
+    },
+    {
+        "id": 2,
+        "task": "task2 then",
+        "user_id": 1
+    },
+    {
+        "id": 3,
+        "task": "help me",
+        "user_id": 2
+    },
+    {
+        "id": 4,
+        "task": "study today",
+        "user_id": 3
+    }
+]

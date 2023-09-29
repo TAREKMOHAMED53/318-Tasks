@@ -113,3 +113,15 @@ if(!function_exists('readFromJsonFile')) {
     }
 }
 
+if(!function_exists('isLoggedIn')){
+    function isLoggedIn($session_name, $path)
+    {
+        if(!isset($_SESSION[$session_name])){
+            redirectTo($path);
+            die;
+        }
+    }
+}
+
+
+
