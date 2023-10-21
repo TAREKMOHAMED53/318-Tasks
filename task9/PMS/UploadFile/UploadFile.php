@@ -18,9 +18,10 @@ function uploadFile($dirct,$request,$errors=[]){
                     $new_name=uniqid('',true).".".$file_extension;
                     $dest=$dirct.$new_name;
                     if(move_uploaded_file($file_tmp_name,$dest)){
-                        $_SESSION['success']=['Image Uploaded Successfully'];
+                        $_SESSION['success']=['Uploaded Successfully'];
                     }else{
-                        $errors[]="Image Not Uploaded Successfully";
+                        $errors[]="Not Uploaded Successfully";
+                        $_SESSION['image_name']=$new_name;
 
                     }
                 }else{
